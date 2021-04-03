@@ -1,9 +1,12 @@
-import { GlobalMeta } from '../components/GlobalMeta'
+import { GlobalMeta, Bio } from '../components/sections'
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <>
-      <GlobalMeta /> 
+      <GlobalMeta />
+      <Bio /> 
     </>
   )
 }
+
+export default Home
