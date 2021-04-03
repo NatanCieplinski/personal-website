@@ -1,13 +1,12 @@
-import Head from 'next/head'
+import { GlobalMeta, Bio } from '../components/sections'
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
-    <div>
-      <Head>
-        <title>Natan Cieplinski</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css"></link>
-      </Head>
-    </div>
+    <>
+      <GlobalMeta />
+      <Bio /> 
+    </>
   )
 }
+
+export default Home
