@@ -10,9 +10,7 @@ module.exports = {
       '2xl': '1536px',
     },
     colors: {
-      blue: {
-        DEFAULT: '#007FFF'
-      }
+      primary: '#007FFF'
     }
   },
   variants: {
