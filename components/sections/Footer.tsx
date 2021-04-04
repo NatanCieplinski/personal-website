@@ -12,7 +12,7 @@ const SocialLink: React.FC<{href:string, Icon:ComponentType<IconProps>}> = ({hre
 
 const Footer: React.FC = () => {
   return (
-    <div className="flex w-full space-x-10 justify-center p-8">
+    <div className="flex w-full space-x-4 md:space-x-10 justify-center p-8">
       <SocialLink href="https://www.linkedin.com/in/natancieplinski/" Icon={LinkedIn} />
       <SocialLink href="https://github.com/NatanCieplinski" Icon={GitHub} />
       <SocialLink href="https://twitter.com/NatanCieplinski" Icon={Twitter} />
